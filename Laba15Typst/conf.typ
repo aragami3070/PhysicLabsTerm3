@@ -62,7 +62,7 @@
   set align(center)
   v(3cm)
   text(weight: "bold", upper(info.at("title", default: [Тема работы])))
-  par[ТЕСТ]
+  par[Отчет]
   v(1.5cm)
   set align(left)
   let author_string = get_student_word(author.at("sex", default: "male"))

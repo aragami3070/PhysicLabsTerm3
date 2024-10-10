@@ -18,8 +18,7 @@
         name: ""
       )
   ),
-  settings: (
-    title_page: (
+  settings: ( title_page: (
       enabled: true
     ),
     contents_page: (
