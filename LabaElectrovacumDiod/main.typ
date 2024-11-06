@@ -28,7 +28,9 @@
 )
 
 #set math.equation(numbering: "(1)", supplement: [])
-#set figure(supplement: "")
+#set figure(supplement: "Рис.")
 
 #include "sections/section1.typ"
+
+#include "sections/section2.typ"
 
