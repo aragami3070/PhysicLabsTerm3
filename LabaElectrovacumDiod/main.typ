@@ -38,3 +38,5 @@
 #include "sections/measurements.typ"
 
 #include "sections/graphics.typ"
+
+#include "sections/conclusions.typ"
