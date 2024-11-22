@@ -36,3 +36,5 @@
 #include "sections/section3.typ"
 
 #include "sections/measurements.typ"
+
+#include "sections/graph.typ"
