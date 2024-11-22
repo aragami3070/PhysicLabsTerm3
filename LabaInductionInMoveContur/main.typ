@@ -3,7 +3,7 @@
 #import "@preview/fletcher:0.4.5" as fletcher: diagram, node, edge
 
 #show: conf.with(
-  title: [Лабораторная работа Электровакуумный диод],
+  title: [Лабораторная работа Индукция в движущемся проводящем контуре],
   type: "referat",
   info: (
       author: (
@@ -30,5 +30,7 @@
 #set figure(supplement: "Рис.")
 
 #include "sections/section1.typ"
+
+#include "sections/section2.typ"
 
 #include "sections/measurements.typ"
