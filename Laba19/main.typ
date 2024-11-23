@@ -34,3 +34,5 @@
 #include "sections/section2.typ"
 
 #include "sections/measurements.typ"
+
+#include "sections/experementInaccuracy.typ"
