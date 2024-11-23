@@ -1,0 +1,92 @@
+= Замеры и вычисления
+
+*Эксперимент 1.*
+
+#set table.hline(stroke: .6pt)
+
+#table(
+  columns: (auto, auto, auto, auto, auto, auto, auto, auto, auto),
+  stroke: none,
+  inset: 10pt,
+  align: horizon,
+  table.hline(),
+  table.header(
+    [], [$P$], [$I$],
+    [$V$], [$cos$], [$P_r$],
+    [$Z$], [$R$], [Реактив.]
+  ),
+  table.hline(),
+  table.vline(x: 0),
+  table.vline(x: 1),
+  table.vline(x: 2),
+  table.vline(x: 3),
+  table.vline(x: 4),
+  table.vline(x: 5),
+  table.vline(x: 6),
+  table.vline(x: 7),
+  table.vline(x: 8),
+  table.vline(x: 9),
+  [а], [35], [1.05],
+  [34], [0.98], [7.034913],
+  [32.38095], [31.74603], [6.380873],
+  // table.hline(start: 1, end: 2),
+  table.hline(),
+  [б], [10], [1.45],
+  [34], [0.2], [48.27515],
+  [23.44828], [4.756243], [22.96083],
+  table.hline(),
+  [в], [5], [1.05],
+  [34.5], [0.14], [35.87828],
+  [32.85714], [4.53514], [32.54265],
+  table.hline(),
+  [г], [20], [0.725],
+  [34], [0.81], [14.40911],
+  [46.89655], [38.04994], [27.41329],
+  table.hline(),
+  [д], [-], [-],
+  [-], [-], [-],
+  [-], [-], [-],
+  table.hline(),
+  [е], [40], [3],
+  [34], [0.39], [93.82963],
+  [11.33333], [4.444444], [10.42551],
+  table.hline(),
+  [ж], [30], [0.925],
+  [33.5], [0.97], [7.760487],
+  [36.21622], [35.06209], [9.069963],
+  table.hline(),
+)
+
+*Эксперимент 2.*
+
+#table(
+  columns: (auto, auto, auto, auto),
+  stroke: none,
+  inset: 10pt,
+  align: horizon,
+  table.hline(),
+  table.header(
+    [], [$x$], [$x_m$], [$cos$]
+  ),
+  table.hline(),
+  table.vline(x: 0),
+  table.vline(x: 1),
+  table.vline(x: 2),
+  table.vline(x: 3),
+  table.vline(x: 4),
+  [а], [0.6], [0.65], [0.923077],
+  // table.hline(start: 1, end: 2),
+  table.hline(),
+  [б], [0.5], [1.6], [0.3125],
+  table.hline(),
+  [в], [0.05], [0.35], [0.142857],
+  table.hline(),
+  [г], [0.1], [0.3], [0.333333],
+  table.hline(),
+  [д], [-], [-], [],
+  table.hline(),
+  [е], [0.125], [0.375], [0.333333],
+  table.hline(),
+  [ж], [0.125], [0.325], [0.384615],
+  table.hline(),
+)
