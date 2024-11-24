@@ -1,6 +1,6 @@
 = Замеры и вычисления
 
-*Эксперимент 1.*
+== Эксперимент 1.
 
 #set table.hline(stroke: .6pt)
 
@@ -57,7 +57,7 @@
   table.hline(),
 )
 
-*Эксперимент 2.*
+== Эксперимент 2.
 
 #table(
   columns: (auto, auto, auto, auto),
