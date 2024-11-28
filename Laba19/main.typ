@@ -38,3 +38,5 @@
 #include "sections/experimentInaccuracy.typ"
 
 #include "sections/methodInaccuracy.typ"
+
+#include "sections/conclusion.typ"
